@@ -7,7 +7,7 @@ Docker-compose mounts node_modules folder to anonymous volume so it remains pers
 In node_modules/react-scripts/config/ the webpackDevServer config file has modified watchOptions with poll: 3000 so it
 causes a 'warm' reload when changes are detected (every 3 seconds) in the code. 
 
-Note: the modification is neede when you use webpack with docker on windows, for linux environments you can remove 
+Note: the modification is needed when you use webpack with docker on windows, for linux environments you can remove 
 the COPY webpackDevServer config line from Dockerfile.
 
 ## npm install of new depedencies in docker container
