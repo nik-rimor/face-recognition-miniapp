@@ -17,7 +17,7 @@ Since node_modules is mounted on volume in the container, any new package instal
 
 and inside shell execute any npm install commands.
 
-
+--------------------
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
