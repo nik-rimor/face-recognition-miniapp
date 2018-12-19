@@ -1,3 +1,15 @@
+# face-recognitiion-miniapp
+Mini project with React, node.js backend that also makes use of Clarifai web APIs for face recognition.
+
+## Docker-compose for dev environment
+Dockerfile produces an image from node:8.14-alpine and installs package.json dependecies.
+Docker-compose mounts node_modules folder to anonymous volume so it remains persistant throughout development.
+In node_modules/react-scripts/config/ the webpackDevServer config file has modified watchOptions with poll: 3000 so it
+causes a 'warm' reload when changes are detected (every 3 seconds) in the code.
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
